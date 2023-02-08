@@ -69,47 +69,56 @@
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/chimichurri.png"
-        },        {
+        },        
+        {
             "name":"Mermelada de Chipotle",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/chipotles_p.png"
-        },        {
+        },        
+        {
             "name":"Mermelada de Fresa",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/fresa.png"
-        },        {
+        },        
+        {
             "name":"Mermelada de Fresa Kiwi",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/fresa_kiwi.png"
-        },        {
+        },        
+        {
             "name":"Mermelada de Frutos Rojos",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/frutos_rojos.png"
-        },        {
+        },        
+        {
             "name":"Mermelada de Higo",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/higo.png"
-        },        {
+        },        
+        {
             "name":"Mermelada de Jamaica",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/jamaica.png"
-        },        {
+        },        
+        {
             "name":"Mermelada Macha",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/macha.png"
-        },        {
+        },        
+        {
             "name":"Mermelada Macha con Arandano Grande ",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/macha_con_arandano_grande.png"
-        },        {
+        },        
+        {
             "name":"Mermelada Macha Grande",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
