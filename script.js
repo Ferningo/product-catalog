@@ -1,49 +1,49 @@
-const addSauce = () => {
-  const sauceRow = document.getElementById("sauces-row");
-  const sauceCardHtml = createSauceCard("sauce");
-  sauceRow.innerHTML += sauceCardHtml;
+const sauceSectionId = "sauces-row";
+const mermeladeSectionId = "mermelades-row";
+
+const addCard = (cardString, idString) => {
+  const sauceRow = document.getElementById(idString);
+  sauceRow.innerHTML += cardString;
 };
 
-const addMermelade = () => {
-  const sauceRow = document.getElementById("mermelades-row");
-  const sauceCardHtml = createSauceCard("mermelade");
-  sauceRow.innerHTML += sauceCardHtml;
-};
-
-const createSauceCard = (type) => {
-  let imgRoute;
-  let cardTitle;
-
-  if (type === "sauce") {
-    imgRoute = "./assets/img/sauce_1.png";
-    cardTitle = "Salsa de chile morita";
-  } else {
-    imgRoute = "./assets/img/mermelade_1.png";
-    cardTitle = "Ponche de frutas";
-  }
-
+const createCard = (imgRoute, cardTitle) => {
   return `
-    <div class="col-sm-4">
-    <div class="card text-center border-0" style="width: 18rem">
-      <img src=${imgRoute} class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">${cardTitle}</h5>
-        <a
-          href="#"
-          class="btn btn-primary btn-lg border-0 btn-rounded"
-          id="add-btn"
-        >
-          AÑADIR
-        </a>
-      </div>
+  <div class="col-sm-4">
+  <div class="card text-center border-0" style="width: 18rem">
+    <img src=${imgRoute} class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">${cardTitle}</h5>
+      <a
+        href="#"
+        class="btn btn-primary btn-lg border-0 btn-rounded"
+        id="add-btn"
+      >
+        AÑADIR
+      </a>
     </div>
-  </div>`;
+  </div>
+</div>`;
 };
 
-async function test() {
-  const resp = await fetch("./data.json");
-  return resp;
+const populateCatalog = (sauceArray, idString) => {
+  for (let i = 0; i < sauceArray.length; i++) {
+    const card = createCard(sauceArray[i].imgPath, sauceArray[i].name);
+    addCard(card, idString);
+  }
+};
+
+async function loadFullCatalog() {
+  fetch("./data.json").then((response) =>
+    response
+      .json()
+      .then((data) => ({
+        data: data,
+      }))
+      .then((res) => {
+        populateCatalog(res.data[0], sauceSectionId);
+        populateCatalog(res.data[1], mermeladeSectionId);
+      })
+  );
 }
 
-const myJson = test();
-console.log(myJson);
+loadFullCatalog();
