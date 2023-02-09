@@ -1,7 +1,7 @@
 [
     [
         {
-            "name":"Salsa Balsamica",
+            "name":"Aderezo Balsamico",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/sauces/balsamico.png"
@@ -9,21 +9,21 @@
         },
 
         {
-            "name":"Salsa Chilapena",
+            "name":"Salsa Chilapeña",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/sauces/chilapena.png"
             
         },
         {
-            "name":"Salsa de Chile de Arbol",
+            "name":"Salsa de Chile de Árbol",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/sauces/chile_de_arbol.png"
             
         },
         {
-            "name":"Salsa de Chiltepin",
+            "name":"Salsa de Chiltepín",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/sauces/chiltepin.png"
@@ -55,27 +55,46 @@
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/sauces/verde.png"
-        }
-    ],
-    [
-        {
-            "name":"Mermelada de Cacahuate",
-            "description":"Salsita pikosita y sabrosa",
-            "price":580,
-            "imgPath":"./assets/img/mermelades/cacahuate.png"
         },
         {
-            "name":"Mermelada de Chimichurri",
+            "name":"Salsa de Cacahuate",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
-            "imgPath":"./assets/img/mermelades/chimichurri.png"
-        },        
+            "imgPath":"./assets/img/sauces/cacahuate.png"
+        },
         {
-            "name":"Mermelada de Chipotle",
+            "name":"Salsa de Chimichurri",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
-            "imgPath":"./assets/img/mermelades/chipotles_p.png"
-        },        
+            "imgPath":"./assets/img/sauces/chimichurri.png"
+        },
+        {
+            "name":"Chipotles dulces",
+            "description":"Salsita pikosita y sabrosa",
+            "price":580,
+            "imgPath":"./assets/img/sauces/chipotles_p.png"
+        }, 
+        {
+            "name":"Salsa Macha",
+            "description":"Salsita pikosita y sabrosa",
+            "price":580,
+            "imgPath":"./assets/img/sauces/macha.png"
+        },
+        {
+            "name":"Salsa Macha Grande",
+            "description":"Salsita pikosita y sabrosa",
+            "price":580,
+            "imgPath":"./assets/img/sauces/macha_grande.png"
+        }, 
+        {
+            "name":"Salsa Macha con Arandano Grande ",
+            "description":"Salsita pikosita y sabrosa",
+            "price":580,
+            "imgPath":"./assets/img/sauces/macha_con_arandano_grande.png"
+        }
+
+    ],
+    [
         {
             "name":"Mermelada de Fresa",
             "description":"Salsita pikosita y sabrosa",
@@ -83,7 +102,7 @@
             "imgPath":"./assets/img/mermelades/fresa.png"
         },        
         {
-            "name":"Mermelada de Fresa Kiwi",
+            "name":"Mermelada de Fresa-Kiwi",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/fresa_kiwi.png"
@@ -107,24 +126,6 @@
             "imgPath":"./assets/img/mermelades/jamaica.png"
         },        
         {
-            "name":"Mermelada Macha",
-            "description":"Salsita pikosita y sabrosa",
-            "price":580,
-            "imgPath":"./assets/img/mermelades/macha.png"
-        },        
-        {
-            "name":"Mermelada Macha con Arandano Grande ",
-            "description":"Salsita pikosita y sabrosa",
-            "price":580,
-            "imgPath":"./assets/img/mermelades/macha_con_arandano_grande.png"
-        },        
-        {
-            "name":"Mermelada Macha Grande",
-            "description":"Salsita pikosita y sabrosa",
-            "price":580,
-            "imgPath":"./assets/img/mermelades/macha_grande.png"
-        },        
-        {
             "name":"Mermelada de Mango",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
@@ -137,13 +138,13 @@
             "imgPath":"./assets/img/mermelades/manzana.png"
         },        
         {
-            "name":"Mermelada de Maracuya",
+            "name":"Mermelada de Maracuyá",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/maracuya.png"
         },        
         {
-            "name":"Mermelada de Pina",
+            "name":"Mermelada de Piña",
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/pina.png"
@@ -159,12 +160,6 @@
             "description":"Salsita pikosita y sabrosa",
             "price":580,
             "imgPath":"./assets/img/mermelades/ponche_de_frutas.png"
-        },
-        {
-            "name":"Mermelada de Jamaica",
-            "description":"Salsita pikosita y sabrosa",
-            "price":580,
-            "imgPath":"./assets/img/mermelades/jamaica.png"
-        }    
+        } 
     ]
 ]
