@@ -2,11 +2,6 @@
     margin-top: 50px;
 }
 
-#create-sauce-btn,#create-mermelade-btn{
-    background-color: dodgerblue;
-    color: wheat;
-}
-
 .btn-primary{
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
     padding-left: 35px;
@@ -15,3 +10,4 @@
     color: #3D4D4D;
     background-color: #FFC600;
 }
+
