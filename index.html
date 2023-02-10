@@ -25,59 +25,60 @@
   </head>
   <body>
     <!-- empieza navBar -->
-    <nav
-      class="navbar navbar-expand-lg bg-body-tertiary"
-      id="nav-bar"
-      data-bs-theme="dark"
-    >
+    <nav class="navbar navbar-expand-md bg-body-tertiary" >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo.png" alt="" />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Quienes Somos?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactanos</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
           </form>
         </div>
       </div>
     </nav>
     <!-- termina navBar -->
 
+
     <h1>Salsas</h1>
+    <center>
     <div class="container">
       <div class="row" id="sauces-row"></div>
     </div>
+  </center>
     <h1>Mermeladas</h1>
+    <center>
     <div class="container">
       <div class="row" id="mermelades-row"></div>
     </div>
+  </center>
   </body>
 </html>

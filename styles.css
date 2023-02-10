@@ -11,3 +11,13 @@
     background-color: #FFC600;
 }
 
+#my-nav-bar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+

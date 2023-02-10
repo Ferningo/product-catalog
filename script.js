@@ -30,7 +30,7 @@ const addCard = (cardString, idString) => {
 
 const createCardString = (imgRoute, cardTitle) => {
   return `
-  <div class="col-sm-4">
+  <div class="col-sm">
   <div class="card text-center border-0" style="width: 18rem">
     <img src=${imgRoute} class="card-img-top" alt="..." />
     <div class="card-body">
