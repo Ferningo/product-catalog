@@ -35,6 +35,7 @@ const createCardString = (imgRoute, cardTitle) => {
     <img src=${imgRoute} class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title">${cardTitle}</h5>
+      <h5 class="card-text">$70.00</h5>
       <a
         href="#"
         class="btn btn-primary btn-lg border-0 btn-rounded"
