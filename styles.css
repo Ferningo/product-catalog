@@ -8,11 +8,6 @@
     font-size: 25px;
 }
 
-#selected{
-    color: #B40414;
-    border-bottom: 4px solid #B40414;
-}
-
 
 /* catalog styles */
 main,.card{
@@ -36,4 +31,9 @@ main,.card{
     border-radius: 28px;
     color: #3D4D4D;
     background-color: #FFC600;
+}
+
+#selected{
+    color: #B40414;
+    border-bottom: 4px solid #B40414;
 }
