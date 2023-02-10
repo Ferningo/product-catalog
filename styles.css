@@ -2,6 +2,11 @@
     margin-top: 50px;
 }
 
+#user-icon{
+    min-width: 50px;
+    min-height: 50px;
+}
+
 .btn-primary{
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
     padding-left: 35px;
@@ -9,11 +14,6 @@
     border-radius: 28px;
     color: #3D4D4D;
     background-color: #FFC600;
-}
-
-#my-nav-bar{
-    padding: 2rem;
-    background-color: #f5f6f7;
 }
 
 .navbar-collapse{
@@ -24,3 +24,12 @@
 main,.card{
     background-color: #E5E9EC;
 }
+
+.nav-item{
+    font-size: 25px;
+}
+
+#selected{
+    color: #B40414;
+}
+
