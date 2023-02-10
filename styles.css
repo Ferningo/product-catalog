@@ -31,5 +31,13 @@ main,.card{
 
 #selected{
     color: #B40414;
+    border-bottom: 4px solid #B40414;
 }
+
+.section-title{
+    padding-top: 25px;
+    border-bottom: 4px solid #ced1d4;
+    width: 70%;
+}
+
 
