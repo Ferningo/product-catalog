@@ -1,6 +1,6 @@
 const sauceSectionId = "sauces-row";
 const mermeladeSectionId = "mermelades-row";
-const jsonPath = "./data.json";
+const jsonPath = "./catalog.json";
 
 async function loadFullCatalog() {
   fetch(jsonPath).then((response) =>
